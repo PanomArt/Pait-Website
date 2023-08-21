@@ -1,0 +1,65 @@
+#about{
+    background-color: $background-color-two;
+    padding: 4rem 0;
+    .about-container{
+        @include flex(center,center,none);
+        flex-wrap: wrap;
+        margin : 4rem 0;
+        .about-img{
+            margin-right: 5rem;
+            width: 26rem;
+            height: 35rem;
+            padding: 5px;
+             img{
+                width: 100%;
+                height: 100%;
+                border-radius: 20px;
+                object-fit: cover;
+                border: 5px solid $logocolor;
+             }
+        }
+        .about-texts{
+            width: 28rem;
+            h2{
+                color: $logocolor;
+                font-size: 35px;
+                font-weight: 900;
+            }
+            p{
+                margin-top:  2rem;
+                line-height: 2.4rem;
+            }
+        }
+    }
+}
+@media screen and (max-width:992px) {
+    #about{
+        .about-container{
+            .about-img{
+                margin: 0;
+                height: 28rem;
+            }
+            .about-texts{
+                text-align: center;
+                width: 85%;
+                margin-top: 2rem;
+            }
+        }
+    }
+}
+@media screen and (max-width:640px) {
+    #about{
+        .about-container{
+            .about-img{
+                margin: 0;
+                height: 22rem;
+                width: 18rem;
+            }
+            .about-texts{
+                text-align: center;
+                width: 85%;
+                margin-top: 2rem;
+            }
+        }
+    }
+}

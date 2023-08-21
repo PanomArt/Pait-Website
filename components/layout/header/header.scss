@@ -1,0 +1,98 @@
+ .header-maindiv{
+    position: fixed;
+    padding: 0 6%;
+    width: 100%;
+    z-index: 10;
+    background: black;
+    @include flex(none,space-between,none);
+    border-bottom: 1px solid rgba($white,0.6);
+    backdrop-filter: blur(15px); 
+    top: 0;
+       .logo{
+            @include logo();
+            cursor: pointer;
+            padding: 0.75rem 0; 
+       }
+
+       .right-header{
+          @include flex(center,none,none);
+            .navigator{
+                @include flex(none,none,none);
+                a{
+                    cursor: pointer;
+                    font-family: 'Prompt';
+                    font-weight: 500;
+                    font-size: 18px;
+                    color: rgba($white,1);
+                    margin: 0 0 0 2rem;
+                    text-decoration: none;
+                    &:hover{
+                        color: rgb(0, 199, 199);
+                    }
+                }
+            }
+            .mobileview{
+                display: none;
+                color: $white;
+                font-size: 30px;
+                cursor: pointer;
+                z-index: 2;
+            }
+       }
+}
+@media screen and (max-width: 1080px) {
+    .header-maindiv{
+        padding: 0 3%;
+        .logo{
+            margin-left: 0.7em;
+        }
+        .right-header{
+             position: relative;
+             .navigator{
+                display: none;
+                &.active{
+                    @include flex(center,center,column);
+                    position: absolute;
+                    width: 18em;
+                    top: 5px;
+                    right: 10px;
+                    padding: 1rem 0;
+                    background: rgba(black,1);
+                    border: 1px solid white;
+                    z-index: 2;
+                     a{
+                        margin: 1em 0;
+                        border-bottom: 1px solid white;
+                        padding-bottom: 1rem;
+                    } 
+                }
+                
+             }
+             .mobileview{
+                display: block;
+                margin-right: 1em;
+             }
+        }
+    }
+}
+@media screen and (max-width: 640px){
+    .header-maindiv{
+        padding: 0;
+        .logo{
+            font-size: 30px ;
+        }
+        .right-header{
+            .navigator{
+                &.active{
+                    width: 100vw;
+                    height: 100vh;
+                    top: 0;
+                    right: 0;
+                    a{
+                        font-size: 25px;
+                    }
+                }
+            }
+        }    
+    }
+}

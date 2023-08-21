@@ -1,0 +1,51 @@
+#skills{
+    padding: 1.5rem 0;
+    background-color: $background-color-one;
+   .skills-container{
+       width: 100%;
+       padding: 0 10%;
+       .skills-list{
+          @include flex(none,center,none);
+          flex-wrap: wrap;
+          margin : 3rem auto;
+          width: 65%;
+            .card{
+                width: 11rem;
+                background: black;
+                border: 1px solid rgba(white,0.3);
+                border-radius: 7.5%;
+                margin: 0.5rem;
+                transition: 0.25s ease-in-out;
+                @include flex(center,none,column);
+                 .skill-title{
+                    @include title;
+                 }
+                 .skill-logo{
+                     margin: 1em 0;
+                     width: 60px;
+                     height: 60px;
+                 }
+                 &:hover{
+                     background: rgb(0, 119, 119);
+                     .skill-title{
+                        color: rgba($white,1);
+                     }
+                 }
+            }
+       }
+   }      
+}
+@media screen and (max-width: 720px) {
+    #skills{
+        padding: 3em 1em;
+        .skills-container{
+            padding: 0;
+            .skills-list{
+                @include grid(repeat(2,1fr),0);
+                .card{
+                    width: 9.5em;
+                }
+            }
+        }
+    }
+}
