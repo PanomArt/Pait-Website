@@ -8,7 +8,7 @@ export default function About() {
           </div>
           <div className='about-container'>
                 <div className='about-img'>
-                      <img src='/about-image.jpg' alt='about-img'/>
+                      <img src='/about-img2.png' alt='about-img'/>
                 </div>
                 <div className='about-texts'>
                       <h2>I am PanomArt</h2>

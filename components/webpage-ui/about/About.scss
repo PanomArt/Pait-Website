@@ -7,15 +7,16 @@
         margin : 4rem 0;
         .about-img{
             margin-right: 5rem;
-            width: 26rem;
-            height: 35rem;
+            height: 32rem;
+            width: 27rem;
             padding: 5px;
              img{
                 width: 100%;
                 height: 100%;
                 border-radius: 20px;
                 object-fit: cover;
-                border: 5px solid $logocolor;
+                border: 2px solid rgba($white,0.5);
+                background-color: rgba($logocolor,0.3);
              }
         }
         .about-texts{
@@ -53,7 +54,6 @@
             .about-img{
                 margin: 0;
                 height: 22rem;
-                width: 18rem;
             }
             .about-texts{
                 text-align: center;
