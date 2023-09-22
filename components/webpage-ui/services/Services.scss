@@ -1,0 +1,55 @@
+#services{
+    padding: 5em 0;
+    background: $background-color-two;
+    width: 100%;
+        .services-container{
+            @include flex(none,center,none);
+            flex-wrap: wrap;
+            margin: 4em 0;
+            padding: 0;
+
+            .activities-card{
+                width: 22rem;
+                @include flex(center,none,column);
+                background: $background-color-one;
+                border-radius: 10px;
+                border: 1px solid white;
+                margin: 0.75rem;
+                padding: 1.5rem 0;
+                transition: 0.25s ease-in-out;
+                img{
+                    width: 150px;
+                    height: 150px;
+                }
+                .activities-title{
+                    @include title;
+                    font-size: 28px;
+                }
+                .activities-texts{
+                    font-size: 16px;
+                    line-height: 1.75rem;
+                    margin: 2rem 0;
+                    text-align: center;
+                    padding: 0 6%;
+                }
+                &:hover{
+                    
+                    background: rgb(0, 119, 119);
+                    transform: translateY(-5px);
+                    .activities-title{
+                       color: rgba($white,1);
+                    }
+                }
+            }
+        }
+
+}
+@media screen and (max-width:640px){
+    #services{
+        .services-container{
+            .activities-card{
+                width: 20rem;
+            }
+        }
+    }
+}

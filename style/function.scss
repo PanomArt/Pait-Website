@@ -1,0 +1,24 @@
+/*Flex Function*/
+@mixin flex($align, $justify, $direction) {
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+    flex-direction: $direction !important;
+}
+
+/*Grid Function*/
+@mixin grid($columns, $gap) {
+    display: grid ; 
+    grid-template-columns: $columns ;
+    grid-gap: $gap;
+}
+
+/*Next/Previous Arrow Function*/
+@mixin arrow() {
+    border-width: 1px 1px 0 0;
+    border-style: solid;
+    border-color: black;
+    height: 18px;
+    width: 18px;
+    z-index: 1;
+}
