@@ -23,7 +23,7 @@ export default function Hero() {
         
                         <p className='icons'>
                              <a href='https://www.linkedin.com/in/panomporn-thepsai-187071245/' className='icon-linkedin' target='_blank'><BsLinkedin/></a>
-                             <a href='https://github.com/PanomArt' className='icon-github' target='_blank'><BsGithub/></a>
+                             <a href='https://github.com/panomartdev' className='icon-github' target='_blank'><BsGithub/></a>
                         </p>
                  </div>
 
