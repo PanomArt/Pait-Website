@@ -59,23 +59,34 @@ export const activities = [
 export const portfolio = [
     {
         id:1,
-        projects: 'Keeper',
-        image: '/keeper.png',
-        description: 'Financial App Landing Page showcase about the financial safety and secure',
-        url: 'https://keeper-panomart.vercel.app'
+        projects: 'Zmall-Ecommerce',
+        image: '/zmall.webp',
+        description: 'Elevate your shopping experience with our user-friendly Zmall Ecommerce shopping app',
+        tech: ["/react.png","/scsslogo.png","/redux.webp"],
+        url: 'https://zmall-ecommerce.vercel.app/'
     },
     {
         id:2,
         projects: 'Consultant',
-        image: '/consultant.png',
+        image: '/consultant.webp',
         description: 'Businesses Agency website Showcase all that your businesses offers',
+        tech: ["/nextjslogo.png","/scsslogo.png"],
         url: 'https://john-consultant.vercel.app/'
     },
     {
         id:3,
         projects: 'M&B Remodeling',
-        image: '/mb-remodel.png',
+        image: '/mb-remodel.webp',
         description: 'Home Remodeling webpage provide the Home improvement, remodeling, and contracting services',
+        tech: ["/nextjslogo.png","/scsslogo.png"],
         url: 'https://mb-remodeling.vercel.app/'
+    },
+    {
+        id:4,
+        projects: 'Keeper',
+        image: '/keeper.webp',
+        description: 'Financial App Landing Page showcase about the financial safety and secure',
+        tech: ["/nextjslogo.png","/scsslogo.png"],
+        url: 'https://keeper-panomart.vercel.app'
     }
 ]

@@ -7,10 +7,10 @@ export default function About() {
                <h1>About</h1>
           </div>
           <div className='about-container'>
-                <div className='about-img'>
+                <div className='about-img' data-aos="fade-right">
                       <img src='/about-img2.png' alt='about-img'/>
                 </div>
-                <div className='about-texts'>
+                <div className='about-texts' data-aos="fade-left">
                       <h2>I am PanomArt</h2>
                       <p>
                           I'm PanomArt, a Junior Frontend Developer based in Bangkok,

@@ -11,8 +11,8 @@ export default function Portfolio() {
           </div>
 
           <div className='portfolio-container'>
-                 {portfolio.map((item)=>(
-                     <div className='port-card'>
+                 {portfolio.slice(0,3).map((item)=>(
+                     <div className='port-card' data-aos="fade-up">
                             <div className='portfolio-img'>
                                    <img src={item.image} className='img'/>
                             </div>
@@ -20,9 +20,13 @@ export default function Portfolio() {
                                    <h3>{item.projects}</h3>
                                    <div className='description-live'>
                                         <p>{item.description}</p>
-                                        <a href={item.url} className='live-demo' target='_blank'>Live Demo <span><GoLinkExternal/></span></a>
                                    </div>
-                                   
+                                   <div className='tech-stacks'>
+                                              {item.tech.map((image,index)=>(
+                                                  <img src={image}/>
+                                              ))}
+                                   </div>
+                                   <a href={item.url} className='live-demo' target='_blank'>Live Demo <span><GoLinkExternal/></span></a>
                             </div>
                             
                      </div>

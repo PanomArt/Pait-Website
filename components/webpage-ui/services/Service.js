@@ -9,7 +9,7 @@ export default function Service() {
             </div>
             <div className='services-container'>
                 {activities.map((item)=>(
-                    <div className='activities-card'>
+                    <div className='activities-card' data-aos="fade-up" data-aos-duration="4000">
                         <img src={item.icon} className='activities-icon'/>
                         <h3 className='activities-title'>{item.title}</h3>
                         <p className='activities-texts'>{item.text}</p>

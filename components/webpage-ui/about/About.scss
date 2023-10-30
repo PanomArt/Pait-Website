@@ -53,13 +53,20 @@
         .about-container{
             .about-img{
                 margin: 0;
-                height: 22rem;
-                width: 21rem;
+                height: 18rem;
+                width: 18rem;
             }
             .about-texts{
                 text-align: center;
-                width: 85%;
+                width: 90%;
                 margin-top: 2rem;
+                h2{
+                    font-size: 28px;
+                }
+                p{
+                    font-size: 15px;
+                    line-height: 2rem;
+                }
             }
         }
     }

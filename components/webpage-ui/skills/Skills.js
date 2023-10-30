@@ -12,7 +12,7 @@ export default function Skills() {
           <div className='skills-container'>
                 <div className='skills-list'>
                        {skills.map((item)=>(
-                           <div className='card'>
+                           <div className='card' data-aos="flip-up">
                                   <h3 className='skill-title'>{item.skill}</h3>
                                   <img src={item.logo} className='skill-logo' />
                            </div>

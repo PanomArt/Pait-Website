@@ -118,3 +118,33 @@
         }
     }
 }
+@media screen and (max-width: 640px) {
+    #hero{
+        .hero-container{
+            .profile-bio{
+                .bio{
+                    &-title{
+                        font-size: 35px;
+                    }
+                    &-description{
+                        font-size: 15px;
+                    }
+                }
+                .contact-information{
+                    .contact{
+                        font-size: 15px;
+                    }
+                }
+                .icons{
+                    a{
+                        font-size: 35px;
+                    }
+                }
+            }
+            .profile-image{
+                width: 15rem;
+                height: 15rem;
+            }
+        }
+    }
+}
