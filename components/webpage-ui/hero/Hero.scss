@@ -36,7 +36,7 @@
               }
               .icons{
                   @include flex(none,none,none);
-                  margin: 3em 0 4em 0;
+                  margin-top: 2.5em; 
                   a{
                     color: $white;
                     margin-right: 0.5em;
@@ -54,7 +54,7 @@
             height: 25rem;
               img{
                 padding: 0.25em;
-                background: white;
+                background: linear-gradient(#7da4fd,#c1f1ff);
                 border-radius: 50%;
                 box-shadow: 0px 0px 3px 5px rgb(0, 119, 119);
                 width: 100%;

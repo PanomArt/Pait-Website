@@ -18,7 +18,7 @@ export default function Hero() {
 
                         <div className='contact-information'>
                             <p className='contact'><span className='icon'><BsGeoAlt/></span>Bangkok , Thailand</p>
-                            <p className='contact'><span className='icon'><AiOutlineMail/></span>artrock548@gmail.com</p>
+          
                         </div>
         
                         <p className='icons'>
@@ -28,7 +28,7 @@ export default function Hero() {
                  </div>
 
                  <div className='profile-image' data-aos="fade-left" data-aos-duration="1000">
-                       <img src='/profile-image.jpg' className='image'/>  
+                       <img src='/hero-img.webp' className='image'/>  
                  </div>
 
           </div>
