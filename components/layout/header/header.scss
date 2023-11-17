@@ -1,7 +1,7 @@
  .header-maindiv{
     position: fixed;
     padding: 0 6%;
-    width: 100%;
+    width: 100vw;
     z-index: 10;
     background: black;
     @include flex(none,space-between,none);
