@@ -5,6 +5,7 @@
         @include flex(center,center,none);
         flex-wrap: wrap;
         margin : 4rem 0;
+        overflow-x: hidden;
         .about-img{
             margin-right: 5rem;
             height: 32rem;
