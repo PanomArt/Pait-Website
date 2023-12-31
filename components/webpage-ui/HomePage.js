@@ -10,7 +10,7 @@ import Portfolio from './portfolio/Portfolio';
 
 const HomePage = () => {
     useEffect(()=>{
-        Aos.init()
+        Aos.init({once: true})
         Aos.refresh()
      },[])
   return (

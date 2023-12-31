@@ -2,6 +2,7 @@ import React from 'react'
 import { BsGithub , BsLinkedin } from "react-icons/bs";
 
 export default function Footer() {
+  const currentYear = new Date().getFullYear();
   return (
     <div className='footer-maindiv'>
            <p className='icons'>
@@ -9,7 +10,7 @@ export default function Footer() {
                   <a href='https://github.com/panomartdev' target='_blank' className='icon-github'><BsGithub/></a>
            </p>
            <p className='footer-text'>
-                   © 2023 PanomArt. All Rights reserved.
+                   © {currentYear} PanomArt. All Rights reserved.
            </p>
 
     </div>
