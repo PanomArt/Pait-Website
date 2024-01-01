@@ -10,7 +10,7 @@ export default function Footer() {
                   <a href='https://github.com/panomartdev' target='_blank' className='icon-github'><BsGithub/></a>
            </p>
            <p className='footer-text'>
-                   © 2024 PanomArt. All Rights reserved.
+                   © {currentYear} PanomArt. All Rights reserved.
            </p>
 
     </div>
