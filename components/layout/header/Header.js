@@ -2,7 +2,6 @@
 import Link from 'next/link';
 import { useState } from 'react'
 import { AiOutlineMenu,AiOutlineClose } from "react-icons/ai";
-import Svgicon from '../../../utils/Svgicon.json';
 import { BsGithub } from "react-icons/bs";
 import { SearchGlass, Setting } from '@/components/icons/iconsList';
 
