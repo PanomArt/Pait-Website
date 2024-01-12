@@ -31,6 +31,11 @@ export const skills = [
     },
     {
         id: 7,
+        skill: "CSS Tailwind",
+        logo: '/tailwind.webp'
+    },
+    {
+        id: 8,
         skill: "Redux",
         logo: '/redux.webp'
     }

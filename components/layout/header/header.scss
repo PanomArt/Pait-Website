@@ -12,6 +12,12 @@
             @include logo();
             cursor: pointer;
             padding: 0.75rem 0; 
+            a{
+                .icon-test{
+                    color: white;
+                    font-size: 10px;
+                }
+            }
        }
 
        .right-header{
