@@ -23,10 +23,10 @@ export default function Header() {
           </div>
           <div className='right-header'>
                 <div className={`navigator ${mobileActive ? "active":""}`} onClick={()=>setMobileActive(false)}>
-                    <Link href='/'>Home</Link>
-                    <Link href='/#about'>About</Link>
-                    <Link href='/#skills'>Skills</Link>
-                    <Link href='/#portfolio'>Portfolio</Link>
+                    <a href='/'>Home</a>
+                    <a href='/#about'>About</a>
+                    <a href='/#skills'>Skills</a>
+                    <a href='/#portfolio'>Portfolio</a>
                 </div>
                 <Link href="/"></Link>
                 <div className='mobileview' onClick={()=>setMobileActive(!mobileActive)}>{mobileActive ? <AiOutlineClose/>:<AiOutlineMenu/>}</div>
