@@ -66,6 +66,11 @@ export const skills = [
     },
     {
        
+        skill: "Json Web Token",
+        logo: '/jwt.webp'
+    },
+    {
+       
         skill: "MongoDB",
         logo: '/mongodb.webp'
     },
@@ -123,7 +128,7 @@ export const portfolio = [
         projects: 'Artiligence Blog',
         image: '/artiligence-blog.webp',
         description: 'Explore , Discover , Dive into the ever-evolving Universe of technology',
-        tech: ["/react.png","/scsslogo.png","/nodejs.webp","/expressjs.webp","mongodb.webp"],
+        tech: ["/react.png","/scsslogo.png","/nodejs.webp","/expressjs.webp","/jwt.webp","/mongodb.webp"],
         url: 'https://artiligence-blog-frontend.vercel.app/'
     },
     {
