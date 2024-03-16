@@ -11,7 +11,7 @@ export default function Portfolio() {
           </div>
 
           <div className='portfolio-container'>
-                 {portfolio.slice(0,3).map((item)=>(
+                 {portfolio.map((item)=>(
                      <div className='port-card' data-aos="fade-up">
                             <div className='portfolio-img'>
                                    <img src={item.image} className='img'/>

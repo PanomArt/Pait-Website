@@ -13,10 +13,10 @@ export default function About() {
                 <div className='about-texts' data-aos="fade-left">
                       <h2>I am PanomArt</h2>
                       <p>
-                          I'm PanomArt, a Junior Frontend Developer based in Bangkok,
+                          I'm PanomArt, a Frontend Developer based in Bangkok,
                           Thailand. I'm passionate about coding and enjoy diving into
                           various technologies to enhance my skills. My expertise 
-                          lies in ReactJS and NextJS, During my free time, I'm dedicated
+                          lies in ReactJS and NextJS, I'm dedicated
                           to continuous learning, exploring new technologies, 
                           and building projects that challenge and expand my abilities
                           . I'm on a journey to becoming a Fullstack Developer, 
