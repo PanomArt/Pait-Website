@@ -125,7 +125,7 @@ export const activities = [
 export const portfolio = [
     {
         id:1,
-        projects: 'Artiligence Blog',
+        projects: 'Artiligence : Blog',
         image: '/artiligence-blog.webp',
         description: 'Explore , Discover , Dive into the ever-evolving Universe of technology',
         tech: ["/react.png","/scsslogo.png","/nodejs.webp","/expressjs.webp","/jwt.webp","/mongodb.webp"],
