@@ -161,6 +161,6 @@ export const portfolio = [
         image: '/keeper.webp',
         description: 'Financial App Landing Page showcase about the financial safety and secure',
         tech: ["/nextjslogo.png","/scsslogo.png"],
-        url: 'https://keeper-panomart.vercel.app'
+        url: 'https://keeperpanomart.netlify.app/'
     }
 ]
