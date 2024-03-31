@@ -66,7 +66,7 @@ export const skills = [
     },
     {
        
-        skill: "Json Web Token",
+        skill: "JWT",
         logo: '/jwt.webp'
     },
     {
