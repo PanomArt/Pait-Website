@@ -12,7 +12,7 @@ export default function Hero() {
                  <div className='profile-bio' data-aos="fade-right" data-aos-duration="1000">
                         <h2 className='bio-title'>Panom<span className='art-text'>Art</span></h2>
                         <p className='bio-description'>
-                            Hello I'm PanomArt , A Frontend Developer based on Thailand<br/>
+                            Hello I am PanomArt , A Frontend Developer based on Thailand<br/>
                         </p>
 
                         <div className='contact-information'>
